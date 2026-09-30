@@ -1,0 +1,292 @@
+/**
+Theme Name: Astra Child
+Author: Brainstorm Force
+Author URI: http://wpastra.com/about/
+Description: Astra is the fastest, fully customizable & beautiful theme suitable for blogs, personal portfolios and business websites. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with schema.org code integrated so search engines will love your site. Astra offers plenty of sidebar options and widget areas giving you a full control for customizations. Furthermore, we have included special features and templates so feel free to choose any of your favorite page builder plugin to create pages flexibly. Some of the other features: # WooCommerce Ready # Responsive # Compatible with major plugins # Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and beautiful theme!
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-child
+Template: astra
+*/
+
+.enh-page-banner{
+    clip-path: polygon(0% 0%,100% 0%, 100% 92%,0% 100%); 
+}
+
+.h1{
+    padding: 30px;
+}
+
+.wpenh-property-loop .entry-title{
+    margin-bottom: 0.3em;
+}
+.wpenh-property-price{
+    font-size: 18px;
+    color: #1616b0;
+}
+
+.wpenh-property-loop-meta{
+    display: flex;
+    justify-content: space-between;
+}
+.wpenh-property-icons .icon{
+    padding: 0 10px 4px 25px;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+}
+.wpenh-property-icons .icon.beds{
+    background: transparent url(images/icon-sprites.jpeg) 0 -120px no-repeat
+}
+.wpenh-property-icons .icon.baths{
+    background: transparent url(images/icon-sprites.jpeg) 0 -400px no-repeat
+}
+
+.wpenh-property-button a{ 
+        background-color: #046bd2; /* Green */
+        border-radius: 25px;;
+        color: #ffff;
+        padding: 8px 35px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      }
+
+.wpenh-property-more-detail{
+   margin-bottom: 10px;
+   display: block;
+}
+.more-detail-item{
+display: flex;
+gap: 4px;
+margin-bottom: 10px;
+}
+.more-detail-item span{
+    width: 20%;
+}
+.wpenh-property-login{
+     background:url(images/build.jpeg);
+     background-position: center;
+     background-size:cover;
+     display: flex;
+     min-height: 100vh;
+     background-repeat: no-repeat;
+     box-sizing: border-box;
+     padding: 10%;
+     margin-left: calc(-50vw + 50%);
+     margin-right: calc(-50vw + 50%);
+     margin-bottom: -60px;
+     max-width: 100vw;
+     width: 100vw;
+ }
+ .wpenh-property-login-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+ }
+
+ .wpenh-property-login__inner{
+    width: 48%;
+    background-color: rgba(4, 77, 173, 0.5);
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 7px;
+    border: 2px solid rgba( 4,77,173,0.5 );
+}
+.wpenh-property-login__inner label{
+    color: aliceblue !important;
+    font-size: 18px;   
+    
+}
+.wpenh-property-login__inner #wp-submit{
+    background-color: rgba(7,59,156);
+}
+.wpenh-property-login__inner #wp-submit:hover{
+    background-color: rgb(11,11,11,0.447);  
+}
+
+.wpenh-property-login__inner h3{
+    color: aliceblue !important;
+    padding-bottom: 10px;   
+}
+
+.wpenh-property-loop .ast-no-thumb .ast-blog-featured-section{
+    margin-bottom: 1.5em;
+}
+
+.wpenh-property-registration__inner{
+    width: 48%;
+    background-color: rgba(4, 77, 173, 0.5);
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 7px;
+    border: 2px solid rgba( 4,77,173,0.5 );  
+}
+
+.wpenh-property-registration__inner h3{
+    color: aliceblue !important;
+    padding-bottom: 10px;
+}
+
+.wpenh-property-registration__inner label{
+    color: aliceblue !important;
+    font-size: 18px;
+    line-height: 2.2em;
+}
+.field-container{
+    padding-top: 10px;
+}
+.wpenh-property-registration .register_submit_button:hover{
+    background-color: rgba(11,11,11,0.447);
+}
+.wpenh-property-registration .register_submit_button{
+    background-color: rgba(7, 59, 156);
+}
+.wpenh-manage-property-form h2{
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.wpenh-manage-property-form label{
+   font-size: 15px;
+
+}
+.wpenh-property-form-container{
+    width: 100%;
+} 
+.wpenh-property-row{
+    display: flex;
+}  
+.wpenh-form-field-column{
+    width:50%;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    padding-right: 20px;
+}    
+.wpenh-form-field-column-form{
+    width:100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+}             
+.wpenh-property-submit-button{
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
+
+.ast-blog-layout-4-grid .ast-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    align-items: stretch;
+    margin-top: 50px;
+}
+.page-template-sell-property .ast-blog-layout-4-grid .wpenh-property-loop,
+.page-template-rent-property .ast-blog-layout-4-grid .wpenh-property-loop,
+.page-template-my-account .ast-blog-layout-4-grid .wpenh-property-loop{
+    width: 33.33%;
+    margin-bottom: 2em;
+    border-bottom: 0;
+    background-color: transparent;
+    padding: 0 1em 0;
+}
+.page-template-sell-property .wpenh-property-loop .post-thumb-img-content img,
+.page-template-rent-property .wpenh-property-loop .post-thumb-img-content img,
+.page-template-my-account .wpenh-property-loop .post-thumb-img-content img {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    transform: scale(1);
+    transition: transform .5s ease;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    box-sizing: inherit;
+    box-shadow: inset;
+    padding-left: 10;
+    padding-right: 10;
+}
+.page-template-sell-property.logged-in,
+.page-template-rent-property.logged-in,
+.page-template-my-account.logged-in{
+    background-color: var(--ast-global-color-4);
+}
+.page-template-sell-property .wpenh-property-loop .ast-article-inner,
+.page-template-rent-property .wpenh-property-loop .ast-article-inner,
+.page-template-my-account .wpenh-property-loop .ast-article-inner{
+    background-color: var(--ast-global-color-5);
+    background-image: none;
+    border-radius: 6px;
+    box-shadow: 0px 6px 15px -2px rgba(16,24,40,0.05);
+    padding: 1.5em;
+    overflow: hidden;
+}
+.page-template-sell-property .wpenh-property-loop .post-content,
+.page-template-rent-property .wpenh-property-loop .post-content,
+.page-template-my-account .wpenh-property-loop .post-content{
+    padding: 0;
+}
+.page-template-sell-property .wpenh-property-loop .post-thumb-img-content,
+.page-template-rent-property .wpenh-property-loop .post-thumb-img-content,
+.page-template-my-account .wpenh-property-loop .post-thumb-img-content{
+    margin-top: -1.5em;
+    margin-left: -1.5em;
+    margin-right: -1.5em;
+    overflow: hidden;
+}
+.page-template-sell-property .wpenh-property-loop .post-thumb-img-content img,
+.page-template-rent-property .wpenh-property-loop .post-thumb-img-content img,
+.page-template-my-account .wpenh-property-loop .post-thumb-img-content img{
+    margin: 0;
+}
+
+.wpenh-property-loop:hover .post-thumb-img-content img{
+    transform: scale(1.1);
+}
+.wpenh_welcome{
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+.wpenh-user-dashboard-menu{
+    list-style-type: none;
+    padding: 0;
+    margin: 15px;
+}
+.wpenh-user-dashboard-menu li{
+    position: relative;
+    display: inline;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;   
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 10px;
+    background-color: #edebf5;  
+}
+
+.wpenh-user-dashboard-menu li:after{
+    position: absolute;
+    right: 0;
+}
+.wpenh-user-dashboard-menu li:last-child::after{
+    display: none;
+}
+.enh-btn-delete{
+    color: red;
+    
+}
+.enh-btn-delete:hover{
+    color: red;
+}
+.btn{
+    color:#030609
+}
+.wpenh_btn_container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
